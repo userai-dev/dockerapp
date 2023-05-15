@@ -1,6 +1,5 @@
 #include "fvFieldDecomposer.H"
 
-
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 
 Foam::fvFieldDecomposer::patchFieldDecomposer::patchFieldDecomposer
