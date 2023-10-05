@@ -1,6 +1,8 @@
-version: "3.0"
+version: "3.1"
 services:
+
   dockerapp:
+  
     image: jleetutorial/dockerapp
     ports:
       - "5000:5000"
