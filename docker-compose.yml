@@ -1,5 +1,7 @@
-version: "3.0"
+version: "3.7"
+
 services:
+
   dockerapp:
     build: .
     ports:
@@ -7,4 +9,4 @@ services:
     depends_on:
       - redis
   redis:
-    image: redis:3.2.0
+    image: redis:3.2.3
